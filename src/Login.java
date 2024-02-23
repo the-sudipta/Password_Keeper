@@ -186,7 +186,7 @@ public class Login extends javax.swing.JFrame {
 
             stmt = conn.createStatement();
             
-            String sql = "UPDATE MASTERPASSWORD SET password = '"+new_Pass+"' WHERE sNo = '"+sNo+"' ";
+            String sql = "UPDATE masterpassword SET password = '"+new_Pass+"' WHERE id = '"+sNo+"' ";
 
             stmt.executeUpdate(sql);
             JOptionPane.showMessageDialog(null, "Password has been Updated Successfully");
