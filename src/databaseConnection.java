@@ -9,10 +9,10 @@ public class databaseConnection {
 
     final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver"; // J connector Registration
     // Path for database connectivity followed by
-    final static String DB_URL = "jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6686174"; // database name is passwords
+    final static String DB_URL = "jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6688583"; // database name is passwords
 
-    final static String USER = "sql6686174";
-    final static String PASS = "iQIIQUwyt6";
+    final static String USER = "sql6688583";
+    final static String PASS = "RTG4nEMcwC";
     final static String PORT = "3306";
 
     public static Connection connection(){
